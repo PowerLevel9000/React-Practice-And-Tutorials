@@ -3,6 +3,7 @@ This repo is for complete begginer to advance in react here i am practicing reac
 
 # Deployed link pattern
 
+well its loading for now
 - First clint this link <a href="https://powerlevel9000.github.io/React-Practice-And-Tutorials/project-folder/build/">dummylink</a>
 
 powerlevel9000.github.io/React-Practice-And-Tutorials/`project-folder`/build/
