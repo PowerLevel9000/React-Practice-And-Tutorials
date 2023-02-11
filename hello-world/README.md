@@ -1,3 +1,8 @@
+# hello react 
+
+This project is the begining of react in which you will find react animation and a text 
+hello react i love you
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
