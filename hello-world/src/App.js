@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import greetAdarsh from './components/firstfunctional';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
         <p>
           Hello! React I love you'
         </p>
+        {greetAdarsh()}
       </header>
+      
     </div>
   );
 }
