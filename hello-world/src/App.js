@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import greetAdarsh from './components/firstfunctional';
 import Greet from './components/classComponent';
+import hello from './components/hello';
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
         </p>
         {greetAdarsh()}
         <Greet />
+        {hello()}
       </header>
       
     </div>
