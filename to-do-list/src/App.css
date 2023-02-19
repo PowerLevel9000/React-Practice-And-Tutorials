@@ -1,38 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  width: 100%;
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes boxing {
+  0%{
+    box-shadow: 5px 5px 5px goldenrod;
+  }
+  25%{
+    box-shadow: 5px -5px 5px rgb(220, 86, 213);
+  }
+   50%{
+    box-shadow: -5px -5px 5px rgb(74, 186, 27);
+  }
+  
+  75%{
+    box-shadow: -5px 5px 5px rgb(32, 187, 218);
+  }
+  100%{
+    box-shadow: 5px 5px 5px goldenrod;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  text-align: center;
+  color: #5988d9;
+}
+
+
+.tasks {
+  width: 70%;
+  padding: 1rem;
+  border: 1px outset black;
+  border-radius: 15px;
+  animation-name: boxing;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.to-do{
+  display: flex;
+  gap: 1rem
+  /* border-bottom: 1px solid gray; */
+}
+
+.to-do:not(:last-of-type) {
+  border-bottom: 1px solid gray;
 }
