@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-
+import greetAdarsh from './components/firstfunctional';
+import Greet from './components/classComponent';
+import hello from './components/hello';
 function App() {
   return (
     <div className="App">
@@ -9,7 +11,13 @@ function App() {
         <p>
           Hello! React I love you'
         </p>
+        {greetAdarsh("andrea","and")}
+        {greetAdarsh("raman","fuck")}
+        {greetAdarsh("merat","you")}
+        <Greet />
+        {hello()}
       </header>
+       
     </div>
   );
 }
