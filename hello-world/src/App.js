@@ -11,11 +11,13 @@ function App() {
         <p>
           Hello! React I love you'
         </p>
-        {greetAdarsh()}
+        {greetAdarsh("andrea","and")}
+        {greetAdarsh("raman","fuck")}
+        {greetAdarsh("merat","you")}
         <Greet />
         {hello()}
       </header>
-      
+       
     </div>
   );
 }

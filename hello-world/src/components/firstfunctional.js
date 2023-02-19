@@ -1,4 +1,7 @@
 import React from "react";
 
-const greetAdarsh = () => <h1>Hello Adarsh</h1>
+const greetAdarsh = (props, name) => {
+    // console.log(props)
+    return <h1 className={name}>Hello {props}</h1>
+}
 export default greetAdarsh;
