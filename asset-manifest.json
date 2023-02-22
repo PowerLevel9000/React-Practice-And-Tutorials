@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Practice-And-Tutorials/to-do-list/static/css/main.96c7c382.css",
+    "main.js": "/React-Practice-And-Tutorials/to-do-list/static/js/main.df3b3d92.js",
+    "static/js/787.34d05ddd.chunk.js": "/React-Practice-And-Tutorials/to-do-list/static/js/787.34d05ddd.chunk.js",
+    "index.html": "/React-Practice-And-Tutorials/to-do-list/index.html",
+    "main.96c7c382.css.map": "/React-Practice-And-Tutorials/to-do-list/static/css/main.96c7c382.css.map",
+    "main.df3b3d92.js.map": "/React-Practice-And-Tutorials/to-do-list/static/js/main.df3b3d92.js.map",
+    "787.34d05ddd.chunk.js.map": "/React-Practice-And-Tutorials/to-do-list/static/js/787.34d05ddd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96c7c382.css",
+    "static/js/main.df3b3d92.js"
+  ]
+}
