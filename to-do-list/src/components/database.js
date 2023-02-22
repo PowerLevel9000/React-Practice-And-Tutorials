@@ -10,22 +10,22 @@ const todosData = [
         completed: false,
     },
     {
-        id: 1,
+        id: 3,
         text: 'clean your table',
         completed: false,
     },
     {
-        id: 1,
+        id: 4,
         text: 'clean your mind',
         completed: false,
     },
     {
-        id: 1,
+        id: 5,
         text: 'clean your bed',
         completed: true,
     },
     {
-        id: 1,
+        id: 6,
         text: 'clean your garden',
         completed: true,
     },
