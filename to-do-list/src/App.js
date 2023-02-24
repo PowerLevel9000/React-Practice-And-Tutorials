@@ -39,7 +39,9 @@ class App extends React.Component {
       <div className="App">
         <div className='tasks'>
           <Title />
+          
           {taskComponent}
+
         </div>
       </div>
     );
